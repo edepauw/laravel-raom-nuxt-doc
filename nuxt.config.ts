@@ -2,11 +2,9 @@
 export default defineNuxtConfig({
   app: {
     baseURL: "/laravel-raom-nuxt-doc/",
-    cdnURL: "/laravel-raom-nuxt-doc/",
   },
   modules: [
     "@nuxt/eslint",
-    "@nuxt/image",
     "@nuxt/ui",
     "@nuxt/content",
     "nuxt-og-image",
