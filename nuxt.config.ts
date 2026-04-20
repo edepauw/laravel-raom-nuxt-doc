@@ -42,6 +42,9 @@ export default defineNuxtConfig({
       crawlLinks: true,
       autoSubfolderIndex: false,
     },
+    output: {
+      publicDir: ".output/public",
+    },
   },
 
   eslint: {
@@ -55,6 +58,10 @@ export default defineNuxtConfig({
 
   icon: {
     provider: "iconify",
+  },
+
+  image: {
+    dir: "public",
   },
 
   llms: {
