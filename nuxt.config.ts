@@ -1,9 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    baseURL: "/laravel-raom-nuxt-doc/",
-  },
-
   modules: [
     "@nuxt/eslint",
     "@nuxt/image",
@@ -42,9 +38,6 @@ export default defineNuxtConfig({
       crawlLinks: true,
       autoSubfolderIndex: false,
     },
-    output: {
-      publicDir: ".output/public",
-    },
   },
 
   eslint: {
@@ -58,10 +51,6 @@ export default defineNuxtConfig({
 
   icon: {
     provider: "iconify",
-  },
-
-  image: {
-    dir: "public",
   },
 
   llms: {
