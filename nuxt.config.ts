@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    baseURL: "/laravel-raom-nuxt-doc/",
+    cdnURL: "/laravel-raom-nuxt-doc/",
+  },
   modules: [
     "@nuxt/eslint",
     "@nuxt/image",
