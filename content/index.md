@@ -4,9 +4,10 @@ seo:
   description: An ORM-like developer experience for Laravel REST APIs in TypeScript/Nuxt
 ---
 
-## ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
-
-## orientation: horizontal
+::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
+---
+orientation: horizontal
+---
 
 #top
 :hero-background
@@ -39,7 +40,7 @@ icon: i-simple-icons-github
 color: neutral
 variant: outline
 size: xl
-to: https://github.com/lomkit/laravel-rest-api
+to: https://github.com/edepauw/laravel-raom-nuxt
 target: \_blank
 
 ---
@@ -241,16 +242,16 @@ Identical API, zero network calls. Use `User.fake().findByKey(1)` to query in-me
 :::u-page-c-t-a
 
 ---
-
-links: - label: Get started
-to: '/getting-started/installation'
-trailingIcon: i-lucide-arrow-right - label: View Roadmap
-variant: outline
-to: '/roadmap'
 title: Ready to build type-safe REST clients?
-description: Get started with Laravel REST API Object Mapper and bring ORM-like patterns to your REST API integration.
+description: Get started with laravel-raom-nuxt and bring ORM-like patterns to your REST API integration.
 class: dark:bg-neutral-950
-
+links:
+  - label: Get started
+    to: /getting-started/installation
+    trailingIcon: i-lucide-arrow-right
+  - label: View Roadmap
+    variant: outline
+    to: /roadmap
 ---
 
 :stars-bg
